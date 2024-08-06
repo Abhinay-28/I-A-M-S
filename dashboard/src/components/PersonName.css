@@ -1,0 +1,104 @@
+/* PersonName.css */
+
+/* Container for the entire page */
+.personname-container {
+    padding: 20px;
+    margin-left: 220px; /* Adjust based on sidebar width */
+    height: 100vh; /* Ensure container takes full height of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Hide any overflow from the container itself */
+  }
+  
+  /* Form wrapper styles */
+  .form-wrapper {
+    width: 100%;
+    max-width: 1200px; /* Adjust as needed */
+    max-height: 90vh; /* Ensure the form container height does not exceed 90% of the viewport height */
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form title */
+  .form-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Form row styles */
+  .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Form group styles */
+  .form-group {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  /* Form label and input styles */
+  .form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .form label input,
+  .form label select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .form label select:disabled {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+  }
+  
+  /* Full-width form group */
+  .form-group.full-width {
+    flex: 0 0 100%;
+  }
+  
+  /* Button styles */
+  .form-buttons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .form-buttons button {
+    background-color: #ff4d00;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 0 10px;
+  }
+  
+  .form-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-buttons button:active {
+    background-color: #004085;
+    transform: translateY(1px);
+  }
+  

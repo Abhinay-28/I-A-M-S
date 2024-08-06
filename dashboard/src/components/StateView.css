@@ -1,0 +1,148 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* Main Container Styling */
+.stateview-container {
+  margin-left: 20%;
+  padding: 40px;
+  /* background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  max-width: 1200px; /* Increased max-width for wider table */
+  margin: 40px auto;
+  width: 1097px;
+  position: absolute;
+  left: 334px;
+  top: 61px;
+  /* overflow-y: auto; Enable vertical scrolling */
+  max-height: 80vh; /* Limit the maximum height for scrolling */
+}
+
+/* Heading Styling */
+.headingSV h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 174px;
+  position: absolute;
+  top: -20px;
+  left: -37px;
+  
+}
+
+/* Button Styling */
+.stateview-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 0 auto 20px auto;
+  max-width: 200px;
+  position: relative;
+  top: -58px;
+  left: -333px;
+}
+
+.stateview-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Table Styling */
+.stateview-table {
+  width: 108%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: -39px;
+  overflow: hidden;
+  position: absolute;
+  height: 522px;
+  left: -40px;
+  top: 26px;
+}
+
+.stateview-table th, .stateview-table td {
+  padding: 15px;
+  text-align: left;
+}
+
+.stateview-table th {
+  background-color: #f1f1f1;
+}
+
+.stateview-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.stateview-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.stateview-table tbody tr td button {
+  margin-right: 10px;
+  padding: 8px 12px; /* Consistent padding for buttons */
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Edit Button Styling */
+.stateview-table tbody tr td .edit-button {
+  background-color: #f39c12;
+  color: white;
+}
+
+.stateview-table tbody tr td .edit-button:hover {
+  background-color: #e67e22;
+}
+
+/* Delete Button Styling */
+.stateview-table tbody tr td .delete-button {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.stateview-table tbody tr td .delete-button:hover {
+  background-color: #c0392b;
+}
+.delbtn{
+  background-color: #e74c3c;
+}
+.stateview-table-button{
+  background-color: #f99f22;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .stateview-container {
+    margin-left: 0;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 0;
+    max-width: 100%;
+    left: 0;
+  }
+
+  .stateview-btn {
+    width: 100%;
+  }
+
+  .stateview-table th, .stateview-table td {
+    padding: 10px;
+  }
+}

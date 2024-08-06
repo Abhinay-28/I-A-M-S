@@ -1,0 +1,73 @@
+/* Pincode.css */
+
+/* Styling for the heading */
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Styling for the description paragraph */
+  .para {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Styling for the form container */
+  .form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 646px;
+    top: 143px;
+    height: 457px;
+  }
+  
+  /* Styling for form elements (select and input) */
+  .form select,
+  .form input {
+    width: calc(100% - 22px);
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Styling for disabled select elements */
+  .form select:disabled {
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+  }
+  
+  /* Styling for the submit button */
+  .form button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    width: 100%;
+  }
+  
+  .form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .form button:active {
+    background-color: #004085;
+  }
+  
+  

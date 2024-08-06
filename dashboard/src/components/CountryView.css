@@ -1,0 +1,172 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Sidebar Styling */
+.sidebarcountryview {
+  position: absolute;
+}
+
+.headingCV {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  position: absolute;
+  font-size: 148px;
+  width: 397px;
+  top: 39px;
+  left: 233px;
+}
+
+.countryview-table{
+  width: 1293px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    position: relative;
+    height: 531px;
+    overflow-y: auto;
+    left: -77px;
+    top: -67px;
+}
+.add-btn{
+  padding: 10px 20px;
+  background-color: #007bff;
+  position: relative;
+  top: -52px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-bottom: 20px;
+  color: white;
+}
+
+/* Main Container Styling */
+.countryview-container {
+  position: absolute;
+  margin: 20px;
+  left: 347px;
+  padding: 40px;
+  /* border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  max-width: 1400px;
+  margin: 40px auto;
+  width: calc(100% - 367px); /* Adjust width based on the sidebar */
+  /* overflow-y: auto;  */
+  max-height: 80vh;
+  /* Optional: Limit the maximum height for scrolling */
+  /* Removed background color from container */
+}
+
+/* Header Styling */
+.countryview-container .headingCV {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Button Styling */
+.countryview-btn, .countryview-delete-btn, .countryview-edit-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.countryview-btn {
+  background-color: #007bff; /* Updated color */
+}
+
+.countryview-btn:hover {
+  background-color: #0056b3; /* Updated color */
+}
+
+.countryview-delete-btn {
+  background-color: #f44336;
+  padding: 8px 12px; /* Updated padding */
+  margin-right: 10px;
+}
+
+.countryview-delete-btn:hover {
+  background-color: #da190b;
+}
+
+.countryview-edit-btn {
+  background-color: #f38d1f; /* Updated color */
+  padding: 8px 12px; /* Updated padding */
+}
+
+.countryview-edit-btn:hover {
+  background-color: #138496; /* Updated color */
+}
+
+/* Table Styling */
+.countryview-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.countryview-table, .countryview-table th, .countryview-table td {
+  border: 1px solid #ddd;
+}
+
+.countryview-table th, .countryview-table td {
+  padding: 12px; /* Updated padding */
+  text-align: left;
+  font-size: 1rem; /* Updated font size */
+}
+
+.countryview-table th {
+  background-color: #f2f2f2; /* Updated color */
+  color: #333;
+}
+
+.countryview-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.countryview-table tbody tr:hover {
+  background-color: #eaeaea;
+}
+
+/* No Data Styling */
+.no-data {
+  text-align: center;
+  color: #666;
+  font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .countryview-container {
+    margin-left: 0;
+    padding: 20px;
+    max-width: 100%;
+    left: 0;
+  }
+
+  .countryview-btn, .countryview-delete-btn, .countryview-edit-btn {
+    width: 100%;
+  }
+
+  .countryview-table th, .countryview-table td {
+    padding: 12px; /* Updated padding */
+  }
+
+  .countryview-delete-btn, .countryview-edit-btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

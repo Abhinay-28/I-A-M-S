@@ -1,0 +1,149 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container styles */
+.Dcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Content styles */
+.Dcontent {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 2000px;
+    width: 1527px;
+    margin-left: 240px;
+    height: 1489px;
+    padding: 20px;
+}
+
+/* Main section styles */
+.mainD {
+    overflow-y: auto;
+}
+
+/* Chart styles */
+.chartss {
+    position: relative;
+    left: 149px;
+    width: 537px;
+    padding: 20px;
+    background-color: #e3f2fd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.totalcities {
+    /* position: relative;
+    top: 70px;
+    left: -328px;
+    padding: 20px;
+    background-color: #ffebee;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+
+
+
+    position: relative;
+    top: 23px;
+    left: 410px;
+    width: 764px;
+    padding: 19px;
+    background-color: #ffebee;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.charts2 {
+    /* position: relative;
+    left: 795px;
+    top: -455px;
+    height: 18px;
+    width: 405px;
+    padding: 20px;
+    background-color: #e8f5e9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+
+    position: relative;
+    left: 729px;
+    top: -500px;
+    height: 305px;
+    width: 615px;
+    padding: 20px;
+    background-color: #e8f5e9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.totalstates {
+    /* position: relative;
+    top: 29px;
+    left: 276px;
+    padding: 20px;
+    background-color: #fff8e1;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+
+    position: relative;
+    top: -163px;
+    left: 396px;
+    width: 803px;
+    padding: 20px;
+    background-color: #fff8e1;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.charts3 {
+    position: absolute;
+    width: 486px;
+    left: 310px;
+    top: 1107px;
+    padding: 20px;
+    background-color: #f3e5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.totalcountries {
+    /* position: relative;
+    top: -78px;
+    left: 296px;
+    padding: 20px;
+    background-color: #fff3e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+
+
+
+    position: relative;
+    top: -265px;
+    width: 788px;
+    left: 399px;
+    padding: 20px;
+    background-color: #fff3e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.statecountry{
+    height: 376px;
+    width: 583px;
+    top: 1067px;
+    position: absolute;
+    left: 913px;
+    background: aliceblue;
+    border-radius: 20px;
+}

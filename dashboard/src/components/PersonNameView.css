@@ -1,0 +1,135 @@
+/* PersonNameView.css */
+
+/* Container for the entire page */
+.personnameview-container {
+  padding: 20px;
+  margin-left: 220px; /* Adjust based on sidebar width */
+  /* background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); */
+  max-width: 1200px;
+  position: relative;
+  
+}
+
+/* Heading styles */
+.personnameview-container .headingNV {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.personnameview-container h2 {
+  font-size: 2.2rem;
+  color: #333;
+  margin: 0;
+}
+
+/* Button styles */
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: block;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.button:active {
+  background-color: #004085;
+  transform: translateY(1px);
+}
+
+/* Table styles */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  /* overflow-y: auto; */
+}
+
+.table thead {
+  background-color: #f4f4f4;
+  border-bottom: 2px solid #ddd;
+}
+
+.table th {
+  padding: 12px;
+  font-size: 1rem;
+  color: #333;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table td {
+  padding: 12px;
+  font-size: 0.9rem;
+  color: #555;
+  border-bottom: 1px solid #ddd;
+}
+
+.table tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Button styles within table */
+.table button {
+  background-color: #ff1e00;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* .table button:hover {
+  background-color: #0056b3;
+} */
+
+.table button:active {
+  background-color: #004085;
+  transform: translateY(1px);
+}
+
+/* Link styles within table */
+.table a {
+  text-decoration: none;
+}
+
+.table a button {
+  background-color: #ffa200;
+}
+
+/* .table a button:hover {
+  background-color: #218838;
+} */
+
+.table a button:active {
+  background-color: #1e7e34;
+}
+
+
+.modal .form-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  margin: 2rem auto;
+    padding: 2rem;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}

@@ -1,0 +1,111 @@
+/* EditPincode.css */
+
+/* Main container for the page */
+.edit-pincode-container {
+    padding: 30px;
+    margin-left: 250px; /* Adjust according to sidebar width */
+    /* background-color: #e9ecef; */
+
+    background: white;
+    padding: 42px;
+    border-radius: 24px;
+  }
+  
+  /* Heading styles */
+  .edit-pincode-container h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  /* Display container styles */
+  .pincode-display-container {
+    padding: 20px;
+    margin-bottom: 40px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #e9ecef;
+  }
+  
+  .pincode-display-container h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .pincode-display-container div {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 12px;
+  }
+  
+  .pincode-display-container p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  /* Form container styles */
+  .edit-pincode-form {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fafafa;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form group styles */
+  .form-group {
+    margin-bottom: 24px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .form-group input:disabled {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+  }
+  
+  /* Button styles */
+  .update-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 14px 22px;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .update-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .update-btn:active {
+    background-color: #004085;
+    transform: translateY(1px);
+  }
+  

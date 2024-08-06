@@ -1,0 +1,145 @@
+/* General Container Styling */
+.cityview-container {
+  margin: 20px auto;
+  padding: 20px;
+  /* background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); */
+  max-width: 1200px;
+  position: relative;
+}
+
+/* Sidebar Styling */
+.sidebarcityview {
+  margin-bottom: 20px;
+}
+
+/* Heading Styling */
+.headingCV {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 20px;
+    left: 150px;
+
+}
+
+.headingCV h2 {
+  font-size: 2.2rem;
+  color: #333;
+  margin: 0;
+}
+
+/* Button Styling */
+.cityview-btn {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cityview-btn:hover {
+  background-color: #0056b3;
+}
+
+.cityview-btn:active {
+  transform: scale(0.98);
+}
+
+/* Table Styling */
+.cityview-table {
+  width: 153%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  left: -74px;
+  height: 533px;
+  top: -19px;
+}
+
+.cityview-table th,
+.cityview-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.cityview-table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.cityview-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.cityview-table tbody tr:hover {
+  background-color: #eaeaea;
+}
+
+.cityview-table-button {
+  background-color: #ff4400;
+  color: #ffffff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.cityview-table-button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .cityview-container {
+    padding: 15px;
+  }
+
+  .heading h2 {
+    font-size: 1.8rem;
+  }
+
+  .cityview-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .cityview-table {
+    width: 100%;
+  }
+  .editbtn{
+    background-color: #ff9d00;
+  color: #ffffff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+  }
+
+  .cityview-table th, .cityview-table td {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  .cityview-table-button {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+}
